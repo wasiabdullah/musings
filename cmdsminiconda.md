@@ -39,3 +39,11 @@
 `conda list --explicit > name.txt`  save environment to text file
 
 `conda env create --file filename.txt`  create envirionment from textfile
+
+
+creating dependencies requirements file using miniconda
+
+pip freeze > requirements.txt
+
+###  Difference between creating a virtual environment with a requirements.txt file
+### and a environment.yml file?
