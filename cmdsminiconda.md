@@ -47,3 +47,16 @@ pip freeze > requirements.txt
 
 ###  Difference between creating a virtual environment with a requirements.txt file
 ### and a environment.yml file?
+
+
+
+------------------
+
+# How to save all the file names in a folder to a txt file using cmd line in windows
+
+- navigate to the folder you want the filenames for 
+
+- `dir /B > filename.txt` run it in cmd line 
+
+
+---------
