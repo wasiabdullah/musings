@@ -18,7 +18,7 @@
 `conda list`
 
 
-`conda env remove --name nameofenv`
+`conda env remove --name nameofenv` - to delete an environment
 
 
 `conda create --name envname pyton=x.x.x`
@@ -60,3 +60,11 @@ pip freeze > requirements.txt
 
 
 ---------
+
+### To list all of the packages in the active environment, use:
+
+`conda list`
+
+### To list all of the packages in a deactivated environment, use:
+
+`conda list -n myenv`
