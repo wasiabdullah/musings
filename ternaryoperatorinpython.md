@@ -21,3 +21,19 @@ print((lambda: b, lambda: a)[a < b]())
 print(a,"is greater") if (a>b) else print(b,"is Greater")
 ```
 
+## using os module in python 
+
+### to get all png files in a folder
+
+``` python
+
+import os
+dir_path = "/home/user/documents"
+files = [
+os.path.join(dir_path, f)
+for f in os.listdir(dir_path)
+if os.path.isfile(os.path.join(dir_path, f)) and f.endswith(".png")
+]
+
+
+```
